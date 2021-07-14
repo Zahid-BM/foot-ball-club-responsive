@@ -12,6 +12,7 @@ common styles or utilities
 body{
     font-family: 'Poppins',
     sans-serif;
+    margin: 0;
 }
 .header-container{
     display: flex;
@@ -61,11 +62,12 @@ a{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 30px;
-    margin-top: 30px;
+    margin-top: 70px;
+    
 
 }
 .top-player {
-    width: 330px;
+    width: 300px;
     height: 474px;
     background-color: white;
     display: flex;
@@ -75,18 +77,22 @@ a{
     box-shadow: 0 0 40px rgba(0, 0, 0, 0.15);
 
 }
+
 .player img{
     width: 300px;
-    height: 256px;
+    height: 246px;
+    align-items: center;
     
 }
 h3{
     font-weight: bold;
     font-size: 28px;
     color: #18191F;
+    margin-bottom: 0;
 }
 p{
     color: #6C6C6C;
     font-size: 16px;
+    font-weight: 400;
 }
 
