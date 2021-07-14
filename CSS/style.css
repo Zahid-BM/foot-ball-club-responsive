@@ -48,3 +48,14 @@ a{
     height: 438px;
 
 }
+
+/* Player's part CSS style starts  */
+
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.player img{
+    width: 300px;
+    height: 256px;
+}
