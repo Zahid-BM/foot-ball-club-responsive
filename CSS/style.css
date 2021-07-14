@@ -133,7 +133,8 @@ Match high-light part CSS style starts
       padding-left: 156px;
       padding-right: 140px;
       padding-top:65px;
-      padding-bottom:100px
+    margin-bottom:158px
+      
     
 
 }
@@ -162,3 +163,50 @@ Match high-light part CSS style starts
 Match high-light part CSS style ends 
 -------------------------------
 -----------------------*/
+
+/* ------------------------
+---------------
+Footer part CSS style Starts 
+-------------------------------
+-----------------------*/
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 63px;
+}
+.logo img{
+    width: 483.87px;
+    height: 110px;
+}
+.social-media-icon a{
+    background-color: #969BAB;
+     font-weight: 00;
+     padding: 0px 5px;
+     border-radius: 10%;
+     margin: 8px;
+     opacity: 60%;
+    
+}
+.copy-right-paragraph{
+    color: #000000;
+    font-size: 18px;
+    font-weight: 400;
+}
+/* ------------------------
+---------------
+Footer part CSS style ends 
+-------------------------------
+-----------------------*/
+
+/* 
+--------------------
+Media Queries style starts
+-------------------------------
+ */
+
+ @media only screen and (max-width:688px) {
+     
+
+    
+ }
