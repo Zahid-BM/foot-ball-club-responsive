@@ -119,6 +119,10 @@ Player's part CSS style starts
     
 
 }
+.top-player:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
 .top-player {
     width: 300px;
     height: 474px;
