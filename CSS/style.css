@@ -25,6 +25,11 @@ Header part CSS style starts
 -------------------------------
 -----------------------*/
 
+/* Top Menu part starts  */
+
+
+/* banner part starts  */
+
 .header-container{
     display: flex;
     justify-content: center;
@@ -47,8 +52,7 @@ h1{
 }
 a{
     text-decoration: none;
-    /* background-color: #E02C6D; */
-    /* try new color  */
+  
     background-image: linear-gradient(blue, red);
     color: #FFFFFF;
     font-weight: 500;
@@ -58,11 +62,15 @@ a{
    
 }
 
+
 .header-image img{
     width: 556.01px;
     height: 438px;
 
 }
+
+/* banner part ends  */
+
 
     /* ------------------------
 ---------------
@@ -142,7 +150,7 @@ Match high-light part CSS style starts
       padding-left: 156px;
       padding-right: 140px;
       padding-top:65px;
-    margin-bottom:158px
+    margin-bottom:118px
       
     
 
@@ -173,6 +181,26 @@ Match high-light part CSS style ends
 -------------------------------
 -----------------------*/
 
+
+
+
+ /* ******************************************
+***********************************************
+bonus part styling starts  
+******************************************
+************************************************ */
+
+
+.bonus-part{
+    margin-bottom: 60px;
+    background-color: darkblue;
+}
+
+.bonus{
+    display: flex;
+    justify-content: space-evenly;
+}
+
 /* ------------------------
 ---------------
 Footer part CSS style Starts 
@@ -182,7 +210,7 @@ Footer part CSS style Starts
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 63px;
+    margin-bottom: 0px;
 }
 .logo img{
     width: 483.87px;
@@ -322,7 +350,7 @@ h1{
     width: 200px;
     height: 70px;
 }
-
+/* Footer part ends  */
 }
 
  
