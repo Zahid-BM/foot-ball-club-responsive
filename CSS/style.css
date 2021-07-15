@@ -14,6 +14,9 @@ body{
     font-family: 'Poppins',
     sans-serif;
     margin: 0;
+    background-color: #F9F9F9;
+
+    
 
 }
     /* ------------------------
@@ -26,7 +29,7 @@ Header part CSS style starts
     display: flex;
     justify-content: center;
     justify-content: space-around;
-    background-color: #2D25A0;
+    background-color: #5F939A;
     padding-left: 156px;
     padding-right: 140px;
     padding-top:153px ;
@@ -44,12 +47,14 @@ h1{
 }
 a{
     text-decoration: none;
-    background-color: #E02C6D;
+    /* background-color: #E02C6D; */
+    /* try new color  */
+    background-image: linear-gradient(blue, red);
     color: #FFFFFF;
     font-weight: 500;
    padding: 10px 30px;
    font-size: 16px;
-   
+   border-radius: 10px;
    
 }
 
@@ -91,7 +96,7 @@ Player's part CSS style starts
 .top-player {
     width: 300px;
     height: 474px;
-    background-color: white;
+    background-color: #E8F0F2;
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -211,7 +216,15 @@ Media Queries style starts
 
  @media only screen and (max-width:688px) {
      
-/* header part strats */
+/* body part starts  */
+body{
+    background-color: #F9F9F9;
+}
+
+/* body part starts  */
+
+
+    /* header part strats */
 
 h1{
     width: 278px;
@@ -226,7 +239,7 @@ h1{
 .header-container {
     display: flex;
     justify-content: space-around;
-    background-color: #2D25A0;
+    background-color: #5F939A;
     padding-left: 16px;
     padding-top: 25px;
     flex-direction: column;
@@ -309,11 +322,6 @@ h1{
     width: 200px;
     height: 70px;
 }
-
-
-
-
-
 
 }
 
