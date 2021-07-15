@@ -45,10 +45,15 @@ h1{
     color: #FFFFFF;
     font-weight: 700;
    width: 470px;
- 
-
 }
 
+h1:hover{
+   color:darkorange;
+   transition: 0.5s;
+   
+
+   
+}
 a{
     text-decoration: none;
   
@@ -66,6 +71,14 @@ a{
     transition: .6s;
 }
 
+.header-image:hover{
+   transition: .5s;
+   transform: rotate(30deg);
+   height: 350px;
+   width: 420px;
+ 
+
+}
 .header-image img{
     width: 556.01px;
     height: 438px;
@@ -347,7 +360,8 @@ h1{
         height: 248px;
         padding-top: 40px;
     }
-/* high-light part starts  */
+    /* high-light part starts  */
+
 
 /* Footer part starts  */
 
