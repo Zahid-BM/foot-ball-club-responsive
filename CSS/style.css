@@ -3,6 +3,7 @@ fonts
 ...................*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
+
 /* ------------------------
 --------------------------------
 common styles or utilities 
@@ -14,12 +15,13 @@ body{
     sans-serif;
     margin: 0;
 
+}
     /* ------------------------
 ---------------
 Header part CSS style starts 
 -------------------------------
 -----------------------*/
-}
+
 .header-container{
     display: flex;
     justify-content: center;
@@ -57,9 +59,9 @@ a{
 
 }
 
-/* ------------------------
+    /* ------------------------
 ---------------
-Player's part CSS style starts 
+Header part CSS style ends 
 -------------------------------
 -----------------------*/
 
@@ -69,6 +71,8 @@ Player's part CSS style starts
 Player's part CSS style starts 
 -------------------------------
 -----------------------*/
+
+
 .player-container{
     display: grid;
    justify-items: center;
@@ -207,6 +211,110 @@ Media Queries style starts
 
  @media only screen and (max-width:688px) {
      
+/* header part strats */
 
+h1{
+    width: 278px;
+    font-size: 38px;
+    color: #FFFFFF;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 60px;
     
- }
+
+}  
+.header-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #2D25A0;
+    padding-left: 16px;
+    padding-top: 25px;
+    flex-direction: column;
+    width: 360px;
+    height: 695px;
+}
+
+.header-image img {
+   width: 329px;
+   height: 259.17px;
+   padding-top: 50px;
+}
+/* header part ends */
+
+/* Player part starts  */
+.player-container{
+    margin-bottom: 50px;
+}
+
+.all-players {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+    margin-top: 40px;
+}
+/* Player part ends  */
+
+/* high-light part starts  */
+
+.high-light-container {
+
+    display: flex;
+    justify-content: space-around;
+    padding-left: 20px;
+    padding-right: 22px;
+    padding-top: 0;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 60px;
+    flex-direction: column;
+    align-items: center;
+}
+.high-light-details{
+    width: 329px;
+    padding-left: 60px;
+}
+.high-light-heading{
+        color: #0A0826;
+        font-size: 30px;
+        margin-bottom: 0;
+        font-weight: 700;
+        width: 294px;
+        height: 80px;
+    }
+    .high-light-paragraph{
+        font-size: 16px;
+       position: static;
+       width: 329px;
+       height: 143px;
+       left: 0px;
+       top: 88px;
+       margin-bottom: 0;
+       padding-top: 10px;
+       padding-right: 0;
+    }
+    .high-light-photo img {
+        width: 350px;
+        height: 248px;
+        padding-top: 40px;
+    }
+/* high-light part starts  */
+
+/* Footer part starts  */
+
+.footer-container{
+    margin-bottom: 0px;
+}
+
+.logo img {
+    width: 200px;
+    height: 70px;
+}
+
+
+
+
+
+
+}
+
+ 
