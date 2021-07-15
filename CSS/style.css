@@ -234,14 +234,22 @@ Footer part CSS style Starts
     width: 483.87px;
     height: 110px;
 }
-.social-media-icon a{
-    background-color: #969BAB;
-     font-weight: 00;
-     padding: 0px 5px;
-     border-radius: 10%;
-     margin: 8px;
-     opacity: 60%;
+.logo-icon {
+background-image: none;
+font-weight: 200;
+padding: 0px 5px;
+font-size: 20px;
+border-radius: 60%;
+opacity: 30%;
+color: black;
+background-color: grey;
+
     
+}
+.logo-icon:hover{
+    font-size: 2.5em;
+    transition: 0.5s;
+
 }
 .copy-right-paragraph{
     color: #000000;
