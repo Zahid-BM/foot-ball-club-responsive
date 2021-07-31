@@ -1,0 +1,1 @@
+Button hover effect must be modified with hover image scale. I used only text size increase . it's not professonal. Must do to show others.
